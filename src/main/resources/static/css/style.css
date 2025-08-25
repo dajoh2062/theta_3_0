@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: Consolas, "Courier New", monospace;
+    font-family: 'Arial', 'Helvetica', sans-serif;
     background-color: white;
 
 }
@@ -24,7 +24,7 @@ body {
     font-size: 1.75rem;
     letter-spacing: 2px;
     font-weight: lighter;
-    font-family: Consolas, "Courier New", monospace;
+
 
 }
 
@@ -41,9 +41,8 @@ body {
     background-color: #ffffff; /* white background */
     padding: 15px 30px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    outline-color: black;
-    outline-style: solid;
-    outline-width: 2px;/* subtle shadow */
+    /* subtle shadow */
+    outline: darkgray solid 1px;
 }
 
 /* Remove default list styling and arrange horizontally */
